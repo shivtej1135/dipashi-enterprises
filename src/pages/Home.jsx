@@ -237,7 +237,7 @@ const Home = () => {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className="max-h-10 max-w-full object-contain opacity-30 group-hover:opacity-100 transition-opacity duration-300"
+                  className="max-h-16 max-w-full object-contain"
                 />
               </motion.div>
             ))}
