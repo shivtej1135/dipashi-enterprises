@@ -34,12 +34,9 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col items-end">
-            <span className="text-white/40 text-sm">
-              Phone: +91 9607875036
-            </span>
-            <span className="text-white/40 text-sm mt-1">
-              Email: dipashienterprises@gmail.com
-            </span>
+            <span className="text-white/40 text-sm">Phone: +91 9607875036</span>
+            <span className="text-white/40 text-sm">+91 9607367129</span>
+            <span className="text-white/40 text-sm mt-1">Email: dipashienterprises@gmail.com</span>
           </div>
         </div>
 

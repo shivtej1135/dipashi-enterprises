@@ -361,7 +361,7 @@ const WhyUs = () => {
           <p className="text-white/50 text-lg font-light leading-relaxed max-w-xl mb-8">
             Get a free site inspection today. No commitment, no charges.
           </p>
-          <div className="flex gap-4 mb-8">
+          <div className="flex flex-wrap justify-center gap-3 mb-8">
             <span className="bg-white/5 border border-white/10 rounded-full px-4 py-2 text-white/50 text-xs">
               ✓ Free Inspection
             </span>
@@ -372,16 +372,16 @@ const WhyUs = () => {
               ✓ Same Day Response
             </span>
           </div>
-          <div className="flex gap-4">
-            <a href="tel:+919607875036" className="bg-teal text-white px-8 py-4 rounded-xl font-medium text-sm hover:bg-teal/90 transition-all duration-200">
+          <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto items-center">
+            <a href="tel:+919607875036" className="bg-teal text-white px-8 py-4 rounded-xl font-medium text-sm hover:bg-teal/90 transition-all duration-200 w-full sm:w-auto text-center">
               📞 Request Free Inspection
             </a>
-            <a href="https://wa.me/919607875036" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-8 py-4 rounded-xl font-medium text-sm hover:bg-[#25D366]/90 transition-all duration-200">
+            <a href="https://wa.me/919607875036" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-8 py-4 rounded-xl font-medium text-sm hover:bg-[#25D366]/90 transition-all duration-200 w-full sm:w-auto text-center">
               💬 WhatsApp Us
             </a>
           </div>
-          <p className="text-white/50 text-sm  mt-8">
-            +91 9607875036 · dipashienterprises@gmail.com
+          <p className="text-white/50 text-sm mt-8 text-center">
+            +91 9607875036 · +91 9607367129 · dipashienterprises@gmail.com
           </p>
         </div>
       </motion.div>
