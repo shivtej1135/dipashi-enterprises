@@ -35,7 +35,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-[radial-gradient(#ffffff08_1px,transparent_1px)] bg-[size:32px_32px]" />
         {/* Glowing orb */}
         <div className="absolute w-[600px] h-[600px] rounded-full bg-[radial-gradient(circle,rgba(0,170,204,0.15)_0%,transparent_70%)] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
-        <div className="relative z-10 flex flex-col items-center justify-center px-8 py-20 text-center">
+        <div className="relative z-10 flex flex-col items-center justify-center px-4 md:px-8 py-20 text-center">
           {/* Top label */}
           <motion.div
             whileInView={{ opacity: 1, y: 0 }}
@@ -51,7 +51,7 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 30 }}
             transition={{ delay: 0.2 }}
-            className="text-5xl md:text-7xl font-bold text-white tracking-tighter leading-[1.05] mb-6 max-w-3xl"
+            className="text-4xl md:text-7xl font-bold text-white tracking-tighter leading-[1.05] mb-6 max-w-3xl"
           >
             Protecting Your <span className="text-teal">Structure</span>, Preserving Your Peace
           </motion.h1>
@@ -61,7 +61,7 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
             transition={{ delay: 0.3 }}
-            className="flex gap-3 justify-center flex-wrap mb-8"
+            className="flex-col sm:flex-row gap-3 mb-8"
           >
             <div className="flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2">
               <div className="w-1.5 h-1.5 rounded-full bg-teal inline-block"></div>
@@ -92,7 +92,7 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 30 }}
             transition={{ delay: 0.4 }}
-            className="flex gap-4 justify-center mb-16"
+            className="flex-col sm:flex-row gap-3 justify-center mb-16"
           >
             <Link to="/services" className="bg-teal text-white px-8 py-4 rounded-xl font-medium text-sm hover:bg-teal/90 transition-all duration-200 hover:-translate-y-0.5">
               View Our Services
@@ -139,7 +139,7 @@ const Home = () => {
         initial={{ opacity: 0, y: 20 }}
         className="bg-teal py-16"
       >
-        <div className="container mx-auto px-8 text-center">
+        <div className="container mx-auto px-4 md:px-8 text-center">
           <div className="flex flex-wrap justify-center items-center border-r border-white/20">
             <div className="flex-1 md:w-1/3 border-r border-white/20 last:border-0">
               <p className="text-5xl font-bold text-white tracking-tighter">25+</p>
@@ -161,9 +161,9 @@ const Home = () => {
       <motion.div
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 30 }}
-        className="bg-white py-24 px-8"
+        className="bg-white py-24 px-4 md:px-8"
       >
-        <div className="container mx-auto px-8">
+        <div className="container mx-auto px-4 md:px-8">
           {/* Section label */}
           <p className="text-teal text-xs font-semibold tracking-[0.15em] uppercase mb-3">
             WHAT WE DO
@@ -214,9 +214,9 @@ const Home = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 40 }}
         transition={{ duration: 0.7 }}
-        className="bg-navy py-24 px-8"
+        className="bg-navy py-24 px-4 md:px-8"
       >
-        <div className="container mx-auto px-8">
+        <div className="container mx-auto px-4 md:px-8">
           <p className="text-teal text-xs font-semibold tracking-[0.2em] uppercase mb-4 text-center">
             OUR CLIENTS
           </p>
