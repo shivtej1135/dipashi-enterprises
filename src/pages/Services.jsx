@@ -234,9 +234,9 @@ const Services = () => {
       <motion.div
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 40 }}
-        className="bg-[#0D1B2A] py-24 px-8"
+        className="bg-[#0D1B2A] py-24 px-4 md:px-8"
       >
-        <div className="container mx-auto px-8">
+        <div className="container mx-auto px-2 md:px-8">
           <p className="text-teal text-xs font-semibold tracking-[0.2em] uppercase mb-3">
             QUICK COMPARISON
           </p>
@@ -254,7 +254,7 @@ const Services = () => {
           >
             <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden border border-white/10">
               {/* Table header */}
-              <div className="bg-white/5 grid grid-cols-3 px-8 py-4">
+              <div className="bg-white/5 hidden md:grid grid-cols-3 px-8 py-4">
                 <p className="text-xs font-semibold text-white/40 uppercase tracking-wider">Service Area</p>
                 <p className="text-xs font-semibold text-white/40 uppercase tracking-wider">Solution Provided</p>
                 <p className="text-xs font-semibold text-white/40 uppercase tracking-wider">Warranty</p>
@@ -264,9 +264,9 @@ const Services = () => {
               {tableData.map((row, index) => (
                 <div
                   key={index}
-                  className="grid grid-cols-3 px-8 py-5 border-t border-white/5 hover:bg-white/5 transition-colors"
+                  className="flex flex-col md:grid md:grid-cols-3 px-8 py-5 border-t border-white/5 hover:bg-white/5 transition-colors gap-1 md:gap-0"
                 >
-                  <p className="text-white text-sm font-medium">{row.area}</p>
+                  <p className="text-white text-sm font-semibold">{row.area}</p>
                   <p className="text-white/50 text-sm">{row.solution}</p>
                   <p className="text-teal text-sm font-semibold">{row.warranty}</p>
                 </div>

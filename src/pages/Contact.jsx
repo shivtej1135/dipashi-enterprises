@@ -159,7 +159,7 @@ const Contact = () => {
                     <p className="text-xs text-muted font-medium uppercase tracking-wider mb-1">
                       Email
                     </p>
-                    <a href="mailto:dipashienterprises@gmail.com" className="text-navy font-semibold hover:text-teal transition-colors">
+                    <a href="mailto:dipashienterprises@gmail.com" className="text-navy font-semibold hover:text-teal transition-colors break-all text-sm">
                       dipashienterprises@gmail.com
                     </a>
                   </div>

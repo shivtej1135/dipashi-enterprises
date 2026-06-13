@@ -92,12 +92,12 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 30 }}
             transition={{ delay: 0.4 }}
-            className="flex-col sm:flex-row gap-3 justify-center mb-16"
+            className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
           >
-            <Link to="/services" className="bg-teal text-white px-8 py-4 rounded-xl font-medium text-sm hover:bg-teal/90 transition-all duration-200 hover:-translate-y-0.5">
+            <Link to="/services" className="bg-teal text-white w-full sm:w-auto px-8 py-4 rounded-xl font-medium text-sm hover:bg-teal/90 transition-all duration-200 hover:-translate-y-0.5">
               View Our Services
             </Link>
-            <Link to="/projects" className="border border-white/20 text-white px-8 py-4 rounded-xl font-medium text-sm hover:border-teal hover:text-teal transition-all duration-200">
+            <Link to="/projects" className="border border-white/20 text-white w-full sm:w-auto px-8 py-4 rounded-xl font-medium text-sm hover:border-teal hover:text-teal transition-all duration-200">
               See Our Projects
             </Link>
           </motion.div>
@@ -107,12 +107,12 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 30 }}
             transition={{ delay: 0.5 }}
-            className="flex items-center justify-center gap-4 text-white/40 text-xs"
+            className="flex flex-col sm:flex-row items-center justify-center gap-4 text-white/40 text-xs"
           >
             <span>Authorized Penetron Applicator</span>
-            <span className="mx-1">·</span>
+            <span className="hidden sm:mx-1">·</span>
             <span>ISO Grade Materials</span>
-            <span className="mx-1">·</span>
+            <span className="hidden sm:mx-1">·</span>
             <span>Up to 10 Year Warranty</span>
           </motion.div>
 
