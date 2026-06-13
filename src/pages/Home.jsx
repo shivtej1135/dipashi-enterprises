@@ -150,7 +150,7 @@ const Home = () => {
               <p className="text-white/70 text-sm mt-1 font-light">Max Warranty</p>
             </div>
             <div className="flex-1 md:w-1/3 last:border-0">
-              <p className="text-5xl font-bold text-white tracking-tighter">50+</p>
+              <p className="text-5xl font-bold text-white tracking-tighter">500+</p>
               <p className="text-white/70 text-sm mt-1 font-light">Projects Completed</p>
             </div>
           </div>
